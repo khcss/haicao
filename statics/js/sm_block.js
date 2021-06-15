@@ -298,11 +298,4 @@ $(document).ready(function() {
 	stui.common.scrolltop();
 	stui.common.copylink();
 	stui.common.share();
-	if (navigator.userAgent.toLocaleLowerCase().indexOf('ucbrowser') > -1) {
-    document.querySelectorAll('a').forEach(function (t) {
-        if (t.href.endsWith('.html')) {
-            t.href += '?t=' + Math.random();
-        }
-    })
-}
 });
