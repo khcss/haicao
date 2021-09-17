@@ -175,3 +175,5 @@ body{ padding-top:100px}
 .top-list li .hits{color:#999}
 .fn-clear:after{visibility:hidden;display:block;font-size:0;content:" ";clear:both;height:0}
 .top-sz{margin-top:8px;float:left!important;}
+@media  screen and (max-width: 600px) {.e2347{width: 100%;display: block;}}
+@media  screen and (min-width: 700px) {.e2347{display: none;}}
